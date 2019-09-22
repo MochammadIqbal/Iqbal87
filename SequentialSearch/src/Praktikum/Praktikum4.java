@@ -13,23 +13,16 @@ import java.util.Scanner;
  */
 public class Praktikum4 {
     public static void main(String[] args) {
-       int cari;
-        boolean found = false;
-        int[] data = new int[]{8,34,86,87,24,10,04};
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan data yang anda cari");
-        cari = input.nextInt();
+        String cari;
+        System.out.println("Masukkan sebuah kata/kalimat : ");
+        cari = input.nextLine();
         
-        
-        for (int i = 0; i < data.length; i++) {
-            if(cari == data[i]) {
-                found = true;
-                System.out.println("Data ditemukan pada indeks ke-" + i);
-            }
+        int a = 0;
+        for (int i = 0; i < args.length; i++) {
+            if (cari.charAt(i) == 'a'){
+                a++;
             
         }
-        if(found != true) {
-            System.out.println("Data tidak ditemukan");
-        }
     }
-}
+        System.out.println("Jumlah huruf a pada kalimat diatas addalah : " +a);}}
