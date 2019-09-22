@@ -15,10 +15,8 @@ Praktikum 4
 arema
 Jumlah huruf a pada kalimat diatas addalah : 2
 
-
-
-
 Tugas 1
+
 -
 
 Tugas 2
